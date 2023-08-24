@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.5;
+  font-family: Castoro;
+  font-size: 24px;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+.header {
+  font-size: 128px;
+  letter-spacing: 12px;
+  h1 {
+    padding-top: 160px;
+  }
+  img {
+    display: block;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 636px;
+    height: 848px;
+  }
+  h2 {
+    text-align: right;
+  }
+}
+
+.intro {
+  background-color: #efefef;
+  margin-bottom: 56px;
+  .text {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    width: 636px;
+    font-size: 32px;
+    margin-left: auto;
+  }
+}
+
+.info {
+  margin-top: 24px;
+  h3 {
+    color: #ae0000;
+    border-bottom: 3px solid #ae0000;
+    width: 636px;
+    font-size: 40px;
+    height: 60px;
+  }
+  ul {
+    padding-top: 16px;
+    padding-bottom: 8px;
+    width: 636px;
+    li {
+      padding-bottom: 8px;
+      a {
+        color: #000;
+        text-decoration: none;
+      }
+    }
+    .edu,
+    .works {
+      padding-bottom: 16px;
+    }
+    .awards {
+      padding-bottom: 12px;
+    }
+
+    .years {
+      font-size: 20px;
+      color: #949494;
+      font-style: italic;
+    }
+  }
+}
+
+.footer {
+  margin-top: 116px;
+  background-color: #000000;
+  text-align: center;
+  img {
+    cursor: pointer;
+    padding: 64px 20px;
+    vertical-align: middle;
+  }
+}

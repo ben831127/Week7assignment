@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  font-family: Castoro;
+  font-size: 24px;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+.header {
+  font-size: 128px;
+  letter-spacing: 12px;
+}
+.header h1 {
+  padding-top: 160px;
+}
+.header img {
+  display: block;
+  vertical-align: middle;
+  margin: 0 auto;
+  width: 636px;
+  height: 848px;
+}
+.header h2 {
+  text-align: right;
+}
+
+.intro {
+  background-color: #efefef;
+  margin-bottom: 56px;
+}
+.intro .text {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  width: 636px;
+  font-size: 32px;
+  margin-left: auto;
+}
+
+.info {
+  margin-top: 24px;
+}
+.info h3 {
+  color: #ae0000;
+  border-bottom: 3px solid #ae0000;
+  width: 636px;
+  font-size: 40px;
+  height: 60px;
+}
+.info ul {
+  padding-top: 16px;
+  padding-bottom: 8px;
+  width: 636px;
+}
+.info ul li {
+  padding-bottom: 8px;
+}
+.info ul li a {
+  color: #000;
+  text-decoration: none;
+}
+.info ul .edu,
+.info ul .works {
+  padding-bottom: 16px;
+}
+.info ul .awards {
+  padding-bottom: 12px;
+}
+.info ul .years {
+  font-size: 20px;
+  color: #949494;
+  font-style: italic;
+}
+
+.footer {
+  margin-top: 116px;
+  background-color: #000000;
+  text-align: center;
+}
+.footer img {
+  cursor: pointer;
+  padding: 64px 20px;
+  vertical-align: middle;
+}/*# sourceMappingURL=style.css.map */
